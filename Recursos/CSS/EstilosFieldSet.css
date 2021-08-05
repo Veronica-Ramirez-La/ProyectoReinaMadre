@@ -1,0 +1,219 @@
+﻿
+.formDivisiones{
+    max-width: 440px;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    margin: 10px auto;
+    padding: 20px;
+    background: #f4f7f8;
+    border-radius: 8px;
+    font-family: "Open Sans";
+    margin-left:15px;
+}
+.formDivisiones fieldset{
+    border: none;
+}
+.formDivisiones legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.formDivisiones input[type="search"],
+.formDivisiones input[type="time"],
+.formDivisiones input[type="url"],
+.formDivisiones textarea,
+.formDivisiones select {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background: rgba(255,255,255,.1);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 0;
+    outline: 0;
+    padding: 7px;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: #e8eeef;
+    color:#8a97a0;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 10px;
+   
+}
+
+.formDivisiones input[type="search"]:focus,
+.formDivisiones input[type="time"]:focus,
+.formDivisiones input[type="url"]:focus,
+.formDivisiones textarea:focus,
+.formDivisiones select:focus{
+    background: #d2d9dd;
+}
+.formDivisiones select{
+    -webkit-appearance: menulist-button;
+    height:35px;
+}
+.formDivisiones .number {
+    background: #EF7924;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    border-radius: 15px 15px 15px 0px;
+}
+
+
+
+.formDetalleIntereses{
+    max-width: 900px;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    margin: 10px auto;
+    padding: 20px;
+    background: #f4f7f8;
+    border-radius: 8px;
+    font-family: "Open Sans";
+    margin-left:15px;
+}
+.formDetalleIntereses fieldset{
+    border: none;
+}
+.formDetalleIntereses legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.formDetalleIntereses .number {
+     background: #EF7924;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    border-radius: 15px 15px 15px 0px;
+    margin-left: -16px;
+}
+
+
+
+.formDetalleIntereses input[type="text"],
+.formDetalleIntereses input[type="time"],
+.formDetalleIntereses input[type="url"],
+.formDetalleIntereses textarea,
+.formDetalleIntereses select {
+    font-family: "Open Sans";
+    background: rgba(255,255,255,.1);
+    border: none;
+    border-radius: 2px;
+    font-size: 10px;
+    margin: 0;
+    outline: 0;
+    padding: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: #e8eeef;
+    color:#8a97a0;
+    margin-bottom: 0px;
+   
+}
+
+.formDetalleIntereses input[type="text"]:focus,
+.formDetalleIntereses input[type="time"]:focus,
+.formDetalleIntereses input[type="url"]:focus,
+.formDetalleIntereses textarea:focus,
+.formDetalleIntereses select:focus{
+    background: #d2d9dd;
+}
+
+.formOpcionesModulo{
+    max-width: 900px;
+    padding: 10px 20px;
+    background: #9CAFBD;
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 8px;
+    font-family: "Open Sans";
+    margin-left:15px;
+    width:1000px;
+    height:35px;
+}
+
+
+
+.formParametros{
+    max-width: 900px;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 8px;
+    font-family: "Open Sans";
+    margin-left:15px;
+    width:auto;
+    height:auto;
+}
+.formParametros legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+
+.formParametros .number {
+    background: #EF7924;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    border-radius: 15px 15px 15px 0px;
+}
+
+
+
+.formTablaCatalogo{
+    max-width: 100%;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 8px;
+    font-family: "Open Sans";
+    margin-left:15px;
+    width:auto;
+    height:auto;
+  
+}
+.formTablaCatalogo legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.formTablaCatalogo .number {
+    background: #EF7924;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    border-radius: 15px 15px 15px 0px;
+}
