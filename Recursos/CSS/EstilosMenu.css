@@ -1,0 +1,141 @@
+﻿#cssmenu {
+	top:5px;
+    background:#797C80;
+    font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
+    font-size: 12px;
+    height: 35px;
+}
+body{
+	/*Sticky Background*/
+	background-image:url(../Imagenes/fondo-body.jpg);
+	background-size:contain;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	}
+	
+#navbar{
+	-webkit-box-shadow:4px 5px 5px 0 rgba(0, 0, 0, 0.45);
+	-moz-box-shadow: 4px 5px 5px 0 rgba(0, 0, 0, 0.45);
+	box-shadow:4px 5px 5px 0 rgba(0, 0, 0, 0.45);
+	
+	
+	}
+
+#pnlNombreUusario {
+	font-family: serif;
+	color:#676767;
+	}
+
+    #cssmenu > ul {
+        *display: inline-block;
+    }
+
+    #cssmenu:after, #cssmenu ul:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+
+    #cssmenu a {
+        background: #A6A7A6;
+        color: #FFF;
+        padding: 0 0px;
+    }
+
+    #cssmenu ul {
+        text-transform: uppercase;
+    }
+
+        #cssmenu ul ul {
+            text-transform: none;
+            min-width: 190px;
+        }
+
+            #cssmenu ul ul a {
+                background: #A6A7A6;
+                color: #FFF;
+                line-height: 70%;
+                padding: 16px 20px;
+            }
+
+            #cssmenu ul ul ul {
+                border-top: 0 none;
+            }
+
+            #cssmenu ul ul li {
+                position: relative;
+            }
+
+
+    #cssmenu > ul > li > a {
+        line-height: 48px;
+    }
+
+    #cssmenu ul ul li:first-child > a {
+        border-top: 1px solid #9B9B9B;
+    }
+
+    #cssmenu ul ul li:hover > a {
+        background: #4A4A4A;
+    }
+
+    #cssmenu ul ul li:last-child > a {
+        border-radius: 0 0 3px 3px;
+        box-shadow: 0 1px 0 #EF7924;
+    }
+
+    #cssmenu ul ul li:last-child:hover > a {
+        border-radius: 0 0 0 3px;
+    }
+
+    #cssmenu ul ul li.has-sub > a:after {
+        content: '+';
+        position: absolute;
+        top: 50%;
+        right: 15px;
+        margin-top: -8px;
+    }
+
+
+
+    #cssmenu ul li:hover > a, #cssmenu ul li.active > a {
+        background: #4A4A4A;
+        color: #FFF;
+    }
+
+    #cssmenu ul li.has-sub > a:after {
+        content: '+';
+        margin-left: 5px;
+    }
+
+    #cssmenu ul li.last ul {
+        left: auto;
+        right: 0;
+    }
+
+        #cssmenu ul li.last ul ul {
+            left: auto;
+            right: 99.5%;
+        }
+	#navbar-footer{
+	    border-top-color : #797C80;
+		background-color:#797C80;
+		background-attachment:fixed;
+		box-sizing:content-box;
+        height:45px;
+		}
+	/*#btn-foot-emp{
+		position:relative;
+		top:30px; /*position relative
+		}*/
+		#navbar-txt{
+			position:relative;
+			font-size:12px;
+			top:2px;
+			left: -15px;
+			color:#FBFBFB;
+			}
+		
+	

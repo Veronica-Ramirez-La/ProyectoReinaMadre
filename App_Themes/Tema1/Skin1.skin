@@ -1,0 +1,54 @@
+<%--
+Plantilla de máscara predeterminada. Las siguientes máscaras se proporcionan sólo como ejemplos.
+
+1. Máscara de control con nombre. SkinId debería definirse de forma única porque
+no se permite que haya varios SkinId por tipo de control en el mismo tema.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Máscara predeterminada. Skinid no está definido Sólo se permite 
+   una máscara de control por tipo de control en el mismo tema.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+--%>
+
+<asp:TextBox runat="server" Width="200px"  BorderColor="LightBlue" 
+    BorderWidth="1px" Font-Size="10" />
+
+<asp:Button  runat="server" Height="20px"  BackColor="White"  Font-Names="Chalet, Arial Rounded MT" BorderWidth="1px" BorderStyle="Solid"
+      Font-Bold="True"  Font-Size="12px" ForeColor="#D24103" />
+
+<asp:DropDownList  runat="server" Width="200px"  BackColor="AliceBlue"  
+         Font-Size="10"  />
+
+<asp:RadioButtonList runat="server" RepeatDirection="Horizontal" Font-Names="Didact gothic, Arial Rounded MT" Font-Size="10" Font-Bold="true"  />
+
+<asp:GridView  runat="server" AutoGenerateColumns="False"  CellPadding="4" 
+         ForeColor="#333333" GridLines="Horizontal" AllowPaging="true" PageSize="15" Font-Names="Century Gothic, Arial Rounded MT" >
+            <AlternatingRowStyle BackColor="White" />
+            <EditRowStyle BackColor="#7C6F57" />
+            <FooterStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" />
+            <HeaderStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" Height="20px" />
+            <PagerStyle BackColor="#666666" ForeColor="White" HorizontalAlign="Center" />
+            <RowStyle BackColor="#E3EAEB" Font-Size="Small" Height="20px"/>
+            <SelectedRowStyle BackColor="#C5BBAF" Font-Bold="True" ForeColor="#333333" />
+            <SortedAscendingCellStyle BackColor="#F8FAFA" />
+            <SortedAscendingHeaderStyle BackColor="#246B61" />
+            <SortedDescendingCellStyle BackColor="#D4DFE1" />
+            <SortedDescendingHeaderStyle BackColor="#15524A" />
+            <AlternatingRowStyle BackColor="White" />
+ </asp:GridView>
+
+ <asp:Calendar runat="server" BackColor="White" ForeColor="Black" 
+         BorderColor="Black" BorderStyle="Solid" CellSpacing="1" Font-Names="Verdana" Height="50px" Width="100px"
+         Font-Size="X-Small"  NextPrevFormat="ShortMonth" SelectionMode="Day">
+            <SelectedDayStyle BackColor="Orange" ForeColor="White" />
+            <DayStyle BackColor="Orange" Font-Bold="true" ForeColor="White" />
+            <NextPrevStyle Font-Bold="true" Font-Size="X-Small" ForeColor="White" />
+            <DayHeaderStyle Font-Bold="true" Font-Size="X-Small" ForeColor="#333333" Height="8pt" />
+            <TitleStyle BackColor="#1C5E55" BorderStyle="None" Font-Bold="true" Font-Size="9pt" ForeColor="White" Height="6pt" />
+            <OtherMonthDayStyle BackColor="NavajoWhite" Font-Bold="false" ForeColor="DarkGray"/>
+   </asp:Calendar>
+

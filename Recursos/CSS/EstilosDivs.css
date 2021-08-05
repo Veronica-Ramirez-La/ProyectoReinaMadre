@@ -1,0 +1,29 @@
+﻿.Tabla {
+    display: table;
+    margin-left: 10px;
+}
+
+.Titulo {
+    display: table-caption;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.Cabecero {
+    display: table-row;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Fila {
+    display: table-row;
+}
+
+.Columna {
+    display: table-cell;
+    border: 0px;
+    border-width: thin;
+    padding-left: 5px;
+    padding-right: 5px;
+}

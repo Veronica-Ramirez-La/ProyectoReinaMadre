@@ -1,0 +1,389 @@
+﻿body {
+}
+
+
+.tdLabel 
+{
+   font-weight:bold;
+   font-size:10px;
+   color:Black;
+   font-family:Arial;
+   padding-left:1px;
+   padding-right:1px;
+   padding-bottom:1px;
+   padding-top:1px;
+   text-align:right;
+   width:auto;
+    
+}
+
+.tdLabelCenter
+{
+   font-weight:bold;
+   font-size:10px;
+   color:Black;
+   font-family:Arial;
+   padding-left:1px;
+   padding-right:1px;
+   padding-bottom:1px;
+   padding-top:1px;
+   text-align:center;
+   width:auto;
+    
+}
+
+
+.tdControl
+{
+   padding-left:1px;
+   padding-right:1px;
+   padding-bottom:1px;
+   padding-top:1px;
+   text-align:left;
+}
+
+.tdTitulo 
+{
+   font-weight:bold;
+   font-size:medium;
+   color:Black;
+   font-family:Arial;
+   padding-left:1px;
+   padding-right:1px;
+   padding-bottom:1px;
+   padding-top:1px;
+   text-align:center;
+   width:auto;
+}
+
+.tdTituloChico
+{
+   font-weight:bold;
+   font-size:12px;
+   color:black;
+   font-family:Arial;
+   padding-left:1px;
+   padding-right:1px;
+   padding-bottom:1px;
+   padding-top:1px;
+   text-align:center;
+}
+
+
+.tdBotones
+{
+   padding-left:1px;
+   padding-right:1px;
+   padding-bottom:1px;
+   padding-top:1px;
+   text-align:center;
+}
+
+.tdTitModulo
+{
+   padding-left:15px;
+   padding-right:1px;
+   padding-bottom:1px;
+   padding-top:1px;
+   text-align:left;
+   background:#f85959;
+   font-family:Arial;
+   font-weight:300;
+   font-size:18pt;
+   color:white;
+   border-color:#c12929;
+   border:solid;
+   border-width:1px;
+}
+
+.tableGrupo 
+{
+    border-style:solid;
+    border-color:brown;
+    border-width:1.5px;
+    border-radius:10px;
+    padding:20px;
+    margin:10px;
+}
+
+.toolTrip 
+{
+    border-style:none;
+    border-color:#E86428;
+    border-width:1px;
+    padding-left:10px;
+    padding-top:10px;
+    padding-bottom:0px;
+   
+    background-color:#E86428;
+    height:30px;
+    border-radius:5px;
+}
+
+.tabArea
+    {
+        background-color: White;
+        font-size: x-small;
+        border-left: 1px solid black;
+        border-bottom: 1px solid black;
+        border-right: 1px solid black;
+        border-top:1px solid black;
+        position:absolute;
+        top:42px;
+        height:400px;
+        z-index:-25;
+    }
+
+.page-header
+    {
+        font-family:'Arial Rounded MT';
+        background-color:#E86428;
+        color: white;
+        text-align:left;
+        padding-left:10px;
+        padding-top:-1px;
+        height:70px;
+        font-size: small;        
+        border-radius:5px;
+        margin-top: -23px;
+    }
+
+.number {
+    background: #EF7924;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    margin-top:27px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    border-radius: 15px 15px 15px 0px;
+    margin-left:30px;
+    margin-bottom:5px;
+}
+
+.titLegend {
+    font-weight:bold;
+   font-size:18px;
+   color:white;
+   font-family:Arial;
+   padding-left:1px;
+   padding-right:1px;
+   padding-bottom:1px;
+   padding-top:1px;
+   text-shadow: 1px 1px white, -1px -1px #333;
+   color: #b65610;
+
+}
+
+.divDivisor{
+    height:5px;
+    background-color:#878069; 
+    margin-top:5px;
+    margin-left:5px;
+    margin-bottom:30px;
+    border-radius:5px
+}
+
+.buttonTolTrip {
+    height:20px; 
+    background-color:white; 
+    font-family:Chalet, 'Arial Rounded MT'; 
+    border-width:1px; 
+    border-style:solid; 
+    color:#D24103; 
+    font-size:12px; 
+    font-weight:bold;" 
+}
+
+/*INICIO TABS*/
+.tabs {
+  list-style: none;
+ 
+}
+
+.tabs ul {
+  color: #fff;
+  border: 1px solid #aaa;
+  text-transform: uppercase;
+  border-bottom: none;
+  position: relative;
+  padding: 3px 10px 4px;
+  top: 2px;
+  text-decoration: none;
+  background-color : #F8F8F8;
+  border-top-left-radius:5px 5px;
+  border-top-right-radius:5px 5px;
+  
+  
+}
+
+.tabs li {
+    border-right: 1px solid #9B9A9A;
+    float: left;
+    list-style: none outside none;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: auto;
+}
+
+
+
+.tabs ul a {
+  border-top-left-radius:5px 5px;
+  border-top-right-radius:5px 5px;
+  color: #E86428;
+  border: 1px solid #aaa;
+  text-transform: uppercase;
+  position: relative;
+  padding: 3px 10px 4px;
+  text-decoration: none;
+}
+
+.tabs ul a:hover{
+  background: #9B9B9B;
+  color: #FFE6B7;
+}
+
+.tabs ul a:active{
+    background:#F8F8F8;
+    color: #FFE6B7;
+}
+
+/*FIN TABS*/
+
+#camera{
+	background:url('../Imagenes/Camara/cam_bg.jpg') repeat-y;
+	border:1px solid #f0f0f0;
+	height:2505px;
+	width:250px;
+	
+}
+
+.camTop{
+	background:url('../Imagenes/Camara/cam.png') no-repeat center center;
+	width:100%;
+	height:66px;
+	position:absolute;
+	top:0;
+	left:0;
+	cursor:pointer;
+}
+
+.settings{
+	background:url('../Imagenes/Camara/settings.png') no-repeat;
+	cursor: pointer;
+	height: 28px;
+	position: absolute;
+	right: 37px;
+	top: 448px;
+	width: 30px;
+}
+
+.settings:hover{
+	background-position:left bottom;
+}
+
+#screen{
+	width:520px;
+	height:370px;
+	margin: 66px auto 22px;
+	background:#ccc;
+	
+	line-height: 360px;
+    text-align: center;
+	color:#666;
+}
+
+.buttonPane{
+	text-align: center;
+}
+
+.tooltip{
+	background:url('../Imagenes/Camara/tooltip.png') no-repeat;
+	position:absolute;
+	width:177px;
+	height:146px;
+	right: 38px;
+	top: -140px;
+}
+
+.blueButton,
+.greenButton{
+	background:url('../Imagenes/Camara//buttons.png') no-repeat;
+	text-shadow:1px 1px 1px #277c9b;
+	color:#fff !important;
+	width:99px;
+	height:38px;
+	border:none;
+	text-decoration:none;
+	display:inline-block;
+	font-size: 16px;
+	line-height: 32px;
+	text-align: center;
+	margin: 0 4px;
+}
+
+.greenButton{
+	background:url('../Imagenes/Camara/buttons.png') no-repeat right top;
+	text-shadow:1px 1px 1px #498917;
+}
+
+.blueButton:hover,
+.greenButton:hover{
+	background-position:left bottom;
+	text-decoration:none !important;
+}
+
+.greenButton:hover{
+	background-position:right bottom;
+}
+
+.blueButton:active,
+.greenButton:active{
+	position:relative;
+	bottom:-1px;
+}
+
+.hidden{
+	display:none;
+}
+
+
+/*-------------------------
+	Generic styles
+--------------------------*/
+
+
+a, a:visited {
+	text-decoration:none;
+	outline:none;
+	color:#54a6de;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+.panelColor{
+
+    position:absolute;
+    z-index:-1; 
+    top:3px; 
+    left:0; 
+    right:0; 
+    bottom:-44px; 
+    opacity:0.9;  
+    border-radius: 20px/60px;    
+    border: 3px dashed #ef7924;
+   text-decoration: none;
+    height:45px; 
+    margin-top:20px;
+  }
+
+.errorTextBox{
+    border:solid 1px red;
+}
